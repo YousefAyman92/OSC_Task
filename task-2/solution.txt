@@ -1,0 +1,19 @@
+1. git config --global user.name "Yousef Ayman"
+   git config --global user.email "y.aymanfathy@gmail.com"
+2. cd ~
+   git clone https://github.com/YousefAyman92/OSC_Task.git
+3. cd OSC_Task
+   mkdir task-2
+4. cd task-2
+   touch greeting.txt
+5. echo "hello world" >> greeting.txt
+6. git add greeting.txt
+   git commit -m "Added greeting"
+7. git branch intro
+   git checkout intro
+8. echo "I love Git" >> greeting.txt
+9. git add greeting.txt
+   git commit -m "Added I love Git"
+10. git checkout main
+    git merge intro
+11. git tag v1
