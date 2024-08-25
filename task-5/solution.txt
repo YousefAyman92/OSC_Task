@@ -1,0 +1,2 @@
+1. grep -o "[a-z.]*@[a-z]*\.[a-z]*"  info.csv | sort -u >> emails.txt 
+2. ps aux --sort=cmd | awk '{print $2, $11}' >> processes.txt
